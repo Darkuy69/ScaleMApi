@@ -12,6 +12,7 @@ namespace Frontend_ScaleM.Controllers
             _service = service;
         }
 
+
         // GET: /Productos/JsonLines
         public async Task<IActionResult> JsonLines()
         {
